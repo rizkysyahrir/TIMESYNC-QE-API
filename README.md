@@ -66,7 +66,7 @@
 1. Ahmad Zain Azharul Falah <br> [![GitHub](https://img.shields.io/badge/Zain-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zenzett)
 2. Aryo Yudhanto <br> [![GitHub](https://img.shields.io/badge/Yudha-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aryoyudhanto)
 
-### :robot: Frontend Teams
+### :robot: Quality Engineer Teams
 
 1. Ichlasiana Amalia <br>  [![GitHub](https://img.shields.io/badge/Amel-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ichlasiana)
 2. Febrian Syahrir Rizky <br>  [![GitHub](https://img.shields.io/badge/Febrian-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rizkysyahrir)
