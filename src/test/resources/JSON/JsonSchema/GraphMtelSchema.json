@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "employee_name": {
+              "type": "string"
+            },
+            "employee_nip": {
+              "type": "string"
+            },
+            "monthly_total_employee_late": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "employee_name",
+            "employee_nip",
+            "monthly_total_employee_late"
+          ]
+        }
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "message"
+  ]
+}

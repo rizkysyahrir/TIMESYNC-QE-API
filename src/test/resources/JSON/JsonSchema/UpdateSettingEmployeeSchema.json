@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "working_hour_start": {
+          "type": "string"
+        },
+        "working_hour_end": {
+          "type": "string"
+        },
+        "tolerance": {
+          "type": "integer"
+        },
+        "annual_leave": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "working_hour_start",
+        "working_hour_end",
+        "tolerance",
+        "annual_leave"
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "message"
+  ]
+}

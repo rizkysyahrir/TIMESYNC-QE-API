@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "company_picture": {
+          "type": "string"
+        },
+        "company_name": {
+          "type": "string"
+        },
+        "company_email": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "company_address": {
+          "type": "string"
+        },
+        "company_phone": {
+          "type": "string"
+        },
+        "sosmed": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "company_picture",
+        "company_name",
+        "company_email",
+        "description",
+        "company_address",
+        "company_phone",
+        "sosmed"
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "message"
+  ]
+}

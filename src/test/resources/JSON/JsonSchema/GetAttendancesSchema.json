@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "attendance_date": {
+              "type": "string"
+            },
+            "clock_in": {
+              "type": "string"
+            },
+            "clock_out": {
+              "type": "string"
+            },
+            "attendance": {
+              "type": "string"
+            },
+            "attendance_status": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "attendance_date",
+            "clock_in",
+            "clock_out",
+            "attendance",
+            "attendance_status"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "attendance_date": {
+              "type": "string"
+            },
+            "clock_in": {
+              "type": "string"
+            },
+            "clock_out": {
+              "type": "string"
+            },
+            "attendance": {
+              "type": "string"
+            },
+            "attendance_status": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "attendance_date",
+            "clock_in",
+            "clock_out",
+            "attendance",
+            "attendance_status"
+          ]
+        }
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "message"
+  ]
+}

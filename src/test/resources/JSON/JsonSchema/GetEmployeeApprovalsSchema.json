@@ -1,0 +1,491 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "employee_name": {
+              "type": "string"
+            },
+            "approval_title": {
+              "type": "string"
+            },
+            "approval_start_date": {
+              "type": "string"
+            },
+            "approval_end_date": {
+              "type": "string"
+            },
+            "approval_description": {
+              "type": "string"
+            },
+            "approval_status": {
+              "type": "string"
+            },
+            "approval_image": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "employee_name",
+            "approval_title",
+            "approval_start_date",
+            "approval_end_date",
+            "approval_description",
+            "approval_status",
+            "approval_image",
+            "created_at"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "employee_name": {
+              "type": "string"
+            },
+            "approval_title": {
+              "type": "string"
+            },
+            "approval_start_date": {
+              "type": "string"
+            },
+            "approval_end_date": {
+              "type": "string"
+            },
+            "approval_description": {
+              "type": "string"
+            },
+            "approval_status": {
+              "type": "string"
+            },
+            "approval_image": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "employee_name",
+            "approval_title",
+            "approval_start_date",
+            "approval_end_date",
+            "approval_description",
+            "approval_status",
+            "approval_image",
+            "created_at"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "employee_name": {
+              "type": "string"
+            },
+            "approval_title": {
+              "type": "string"
+            },
+            "approval_start_date": {
+              "type": "string"
+            },
+            "approval_end_date": {
+              "type": "string"
+            },
+            "approval_description": {
+              "type": "string"
+            },
+            "approval_status": {
+              "type": "string"
+            },
+            "approval_image": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "employee_name",
+            "approval_title",
+            "approval_start_date",
+            "approval_end_date",
+            "approval_description",
+            "approval_status",
+            "approval_image",
+            "created_at"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "employee_name": {
+              "type": "string"
+            },
+            "approval_title": {
+              "type": "string"
+            },
+            "approval_start_date": {
+              "type": "string"
+            },
+            "approval_end_date": {
+              "type": "string"
+            },
+            "approval_description": {
+              "type": "string"
+            },
+            "approval_status": {
+              "type": "string"
+            },
+            "approval_image": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "employee_name",
+            "approval_title",
+            "approval_start_date",
+            "approval_end_date",
+            "approval_description",
+            "approval_status",
+            "approval_image",
+            "created_at"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "employee_name": {
+              "type": "string"
+            },
+            "approval_title": {
+              "type": "string"
+            },
+            "approval_start_date": {
+              "type": "string"
+            },
+            "approval_end_date": {
+              "type": "string"
+            },
+            "approval_description": {
+              "type": "string"
+            },
+            "approval_status": {
+              "type": "string"
+            },
+            "approval_image": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "employee_name",
+            "approval_title",
+            "approval_start_date",
+            "approval_end_date",
+            "approval_description",
+            "approval_status",
+            "approval_image",
+            "created_at"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "employee_name": {
+              "type": "string"
+            },
+            "approval_title": {
+              "type": "string"
+            },
+            "approval_start_date": {
+              "type": "string"
+            },
+            "approval_end_date": {
+              "type": "string"
+            },
+            "approval_description": {
+              "type": "string"
+            },
+            "approval_status": {
+              "type": "string"
+            },
+            "approval_image": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "employee_name",
+            "approval_title",
+            "approval_start_date",
+            "approval_end_date",
+            "approval_description",
+            "approval_status",
+            "approval_image",
+            "created_at"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "employee_name": {
+              "type": "string"
+            },
+            "approval_title": {
+              "type": "string"
+            },
+            "approval_start_date": {
+              "type": "string"
+            },
+            "approval_end_date": {
+              "type": "string"
+            },
+            "approval_description": {
+              "type": "string"
+            },
+            "approval_status": {
+              "type": "string"
+            },
+            "approval_image": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "employee_name",
+            "approval_title",
+            "approval_start_date",
+            "approval_end_date",
+            "approval_description",
+            "approval_status",
+            "approval_image",
+            "created_at"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "employee_name": {
+              "type": "string"
+            },
+            "approval_title": {
+              "type": "string"
+            },
+            "approval_start_date": {
+              "type": "string"
+            },
+            "approval_end_date": {
+              "type": "string"
+            },
+            "approval_description": {
+              "type": "string"
+            },
+            "approval_status": {
+              "type": "string"
+            },
+            "approval_image": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "employee_name",
+            "approval_title",
+            "approval_start_date",
+            "approval_end_date",
+            "approval_description",
+            "approval_status",
+            "approval_image",
+            "created_at"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "employee_name": {
+              "type": "string"
+            },
+            "approval_title": {
+              "type": "string"
+            },
+            "approval_start_date": {
+              "type": "string"
+            },
+            "approval_end_date": {
+              "type": "string"
+            },
+            "approval_description": {
+              "type": "string"
+            },
+            "approval_status": {
+              "type": "string"
+            },
+            "approval_image": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "employee_name",
+            "approval_title",
+            "approval_start_date",
+            "approval_end_date",
+            "approval_description",
+            "approval_status",
+            "approval_image",
+            "created_at"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "employee_name": {
+              "type": "string"
+            },
+            "approval_title": {
+              "type": "string"
+            },
+            "approval_start_date": {
+              "type": "string"
+            },
+            "approval_end_date": {
+              "type": "string"
+            },
+            "approval_description": {
+              "type": "string"
+            },
+            "approval_status": {
+              "type": "string"
+            },
+            "approval_image": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "employee_name",
+            "approval_title",
+            "approval_start_date",
+            "approval_end_date",
+            "approval_description",
+            "approval_status",
+            "approval_image",
+            "created_at"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "employee_name": {
+              "type": "string"
+            },
+            "approval_title": {
+              "type": "string"
+            },
+            "approval_start_date": {
+              "type": "string"
+            },
+            "approval_end_date": {
+              "type": "string"
+            },
+            "approval_description": {
+              "type": "string"
+            },
+            "approval_status": {
+              "type": "string"
+            },
+            "approval_image": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "employee_name",
+            "approval_title",
+            "approval_start_date",
+            "approval_end_date",
+            "approval_description",
+            "approval_status",
+            "approval_image",
+            "created_at"
+          ]
+        }
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "message"
+  ]
+}

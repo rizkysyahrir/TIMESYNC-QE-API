@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "approval_title": {
+          "type": "string"
+        },
+        "approval_start_date": {
+          "type": "string"
+        },
+        "approval_end_date": {
+          "type": "string"
+        },
+        "approval_description": {
+          "type": "string"
+        },
+        "approval_image": {
+          "type": "string"
+        },
+        "approval_status": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "approval_title",
+        "approval_start_date",
+        "approval_end_date",
+        "approval_description",
+        "approval_image",
+        "approval_status"
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "message"
+  ]
+}
